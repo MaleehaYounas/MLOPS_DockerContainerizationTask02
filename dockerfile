@@ -6,7 +6,7 @@ WORKDIR /app
 
 
 COPY requirements.txt .
-COPY salaries_data.csv .
+COPY salary_data.csv .
 COPY app.py .
 
 # Installing dependencies
